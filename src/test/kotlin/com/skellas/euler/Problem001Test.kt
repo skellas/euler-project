@@ -7,8 +7,13 @@ class Problem001Test {
 
     @Test
     fun shouldReturn23ForUnder10() {
-        val valueBelowTen = Problem001(0,10)
-        assertEquals(23, valueBelowTen.exec())
+        val valueBelowTen = Problem001()
+        assertEquals(23, valueBelowTen.exec(0,10))
     }
 
+    @Test
+    fun shouldReturn233168ForUnder1000() {
+        val valueBelowTen = Problem001()
+        assertEquals(233168, valueBelowTen.exec(0,1000))
+    }
 }

@@ -5,9 +5,10 @@ package com.skellas.euler
  * The sum of these multiples is 23.
  * Find the sum of all the multiples of 3 or 5 below 1000.
  */
-class Problem001(start: Int = 0, endExclusive: Int) {
-    fun exec(): Int {
-
-        return 23
+class Problem001() {
+    fun exec(start: Int = 0, endExclusive: Int): Int {
+        return IntRange(start, endExclusive-1)
+                .filter { it % 3 == 0 || it % 5 == 0 }
+                .sum()
     }
 }
