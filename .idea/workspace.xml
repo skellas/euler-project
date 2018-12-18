@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a80a2e70-ecee-4265-bde5-97baef53c0eb" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/skellas/euler/Problem001.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/skellas/euler/Problem001.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/com/skellas/euler/Problem001Test.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/com/skellas/euler/Problem001Test.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/skellas/euler/Problem002.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/com/skellas/euler/Problem002Test.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,11 +26,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Problem001Test.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Problem001Test.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/kotlin/com/skellas/euler/Problem001Test.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+            <state relative-caret-position="187">
+              <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+              <folding>
+                <element signature="e#27#113#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Problem002.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/skellas/euler/Problem002.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Problem002Test.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/kotlin/com/skellas/euler/Problem002Test.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
               <folding>
                 <element signature="e#27#113#0" expanded="true" />
               </folding>
@@ -52,6 +74,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -65,6 +88,8 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/skellas/euler/Problem001.kt" />
         <option value="$PROJECT_DIR$/src/test/kotlin/com/skellas/euler/Problem001Test.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/skellas/euler/Problem002.kt" />
+        <option value="$PROJECT_DIR$/src/test/kotlin/com/skellas/euler/Problem002Test.kt" />
       </list>
     </option>
   </component>
@@ -183,7 +208,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Problem001Test">
+  <component name="RunManager" selected="JUnit.Problem002Test">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -210,29 +235,6 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="Problem001Test.shouldReturn23ForUnder10" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="euler-project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.skellas.euler.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.skellas.euler" />
-      <option name="MAIN_CLASS_NAME" value="com.skellas.euler.Problem001Test" />
-      <option name="METHOD_NAME" value="shouldReturn23ForUnder10" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
     <configuration name="Problem001Test.shouldReturnValueForUnder1000" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="euler-project" />
       <extension name="coverage">
@@ -247,6 +249,52 @@
       <option name="MAIN_CLASS_NAME" value="com.skellas.euler.Problem001Test" />
       <option name="METHOD_NAME" value="shouldReturnValueForUnder1000" />
       <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="Problem002Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="euler-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.skellas.euler.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.skellas.euler" />
+      <option name="MAIN_CLASS_NAME" value="com.skellas.euler.Problem002Test" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="Problem002TestKt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="euler-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.skellas.euler.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.skellas.euler" />
+      <option name="MAIN_CLASS_NAME" value="com.skellas.euler.Problem002TestKt" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -282,6 +330,16 @@
       <option name="MAIN_CLASS_NAME" />
       <option name="WORKING_DIRECTORY" />
     </configuration>
+    <configuration name="com.skellas.euler.Problem002Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="euler-project" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.skellas.euler.Problem002Kt" />
+      <option name="WORKING_DIRECTORY" />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -305,15 +363,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.Problem001Test.shouldReturn23ForUnder10" />
       <item itemvalue="JUnit.Problem001Test.shouldReturnValueForUnder1000" />
       <item itemvalue="JUnit.Problem001Test" />
+      <item itemvalue="Kotlin.com.skellas.euler.Problem002Kt" />
+      <item itemvalue="JUnit.Problem002TestKt" />
+      <item itemvalue="JUnit.Problem002Test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Problem002Test" />
+        <item itemvalue="JUnit.Problem002TestKt" />
+        <item itemvalue="Kotlin.com.skellas.euler.Problem002Kt" />
         <item itemvalue="JUnit.Problem001Test" />
         <item itemvalue="JUnit.Problem001Test.shouldReturnValueForUnder1000" />
-        <item itemvalue="JUnit.Problem001Test.shouldReturn23ForUnder10" />
       </list>
     </recent_temporary>
   </component>
@@ -325,7 +387,7 @@
       <option name="presentableId" value="Default" />
       <updated>1545095282825</updated>
       <workItem from="1545095285257" duration="1970000" />
-      <workItem from="1545097287746" duration="1721000" />
+      <workItem from="1545097287746" duration="2916000" />
     </task>
     <servers />
   </component>
@@ -345,9 +407,18 @@
     <history-entry file="Problem001Test_shouldReturnValueForUnder1000 - 2018.12.17 at 21h 10m 11s.xml">
       <configuration name="Problem001Test.shouldReturnValueForUnder1000" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Problem001Test_shouldReturnValueForUnder1000 - 2018.12.17 at 21h 10m 25s.xml">
+      <configuration name="Problem001Test.shouldReturnValueForUnder1000" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Problem001Test - 2018.12.17 at 21h 10m 35s.xml">
+      <configuration name="Problem001Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Problem002TestKt - 2018.12.17 at 21h 29m 56s.xml">
+      <configuration name="Problem002TestKt" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3691000" />
+    <option name="totallyTimeSpent" value="4886000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -429,6 +500,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/skellas/euler/Problem002.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/skellas/euler/Problem001.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -438,8 +516,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/kotlin/com/skellas/euler/Problem001Test.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+        <state relative-caret-position="187">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding>
+            <element signature="e#27#113#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/kotlin/com/skellas/euler/Problem002Test.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
           <folding>
             <element signature="e#27#113#0" expanded="true" />
           </folding>
